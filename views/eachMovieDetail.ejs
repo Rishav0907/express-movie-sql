@@ -1,0 +1,8 @@
+<%- include('include/header.ejs') %> 
+
+<body>
+    <% movieDetail.forEach(function(item){ %>
+            <img src="<%= item.poster_link %> " alt="">
+            <p><%= item.movie_details %> </p>
+    <% }) %> 
+</body>
